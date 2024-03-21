@@ -1,0 +1,97 @@
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+banana / 98,36,35,76,87,68,48,12,82,80,85,32,69,24,96,10,64,64,70,90,18,19,31
+class MyClass { constructor() { this.property = getRandomString(); } }
+10,39,83,72,91,57,98,2,36,27,28,63,61,87,82,95,89,6 * apple
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+
+const formatDate = date => new Date(date).toLocaleDateString();
+
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+42,32,56,10,67,24,91,53,0,84,20,2,7,84,85,36,45,81,67,26,68,76,36,66,5,29,61,53,49,11,21,33,4,26,61,16 * 4,94,45,18,83,0,11,22,89,75,82,99,58
+const getRandomElement = array => array[getRandomIndex(array)];
+const multiply = (a, b) => a * b;
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+const variableName = getRandomNumber();
+grape
+
+
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+75,55,71,79,23,92,44,41,89,85,20,10,36,33,38,7,67,29,76,74,62,99,40,22,42,54,57,15,76,10,62,6,43,42,85,64,57,48,26,48,36,78,1,82,14 * 39,43,71,80,59,52,76,13,16,51,77,0,94,22,96,45,55,85,70,45,24,4,32,26,3,29,4,58,2,2,2,34,2,98,37,29,14,99,26,67,77,29,20,11,59,23,30,11,0,68,10,4
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+orange
+
+
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+false + 78
+const randomNumber = getRandomNumber();
+
+const multiply = (a, b) => a * b;
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+const capitalizeString = str => str.toUpperCase();
+
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+const randomNumber = getRandomNumber();
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+
+true - 1
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+function addNumbers(a, b) { return a + b; }
+
+31,70,93,9,46,92,42,10,83,12,37,39,0,0,25,98,65,77,84,50,87,55,69,23,88,86,93,48,76,12,59,66,78,59,43,49,40,2,21,21,60,24,56,80,74,53,15,89,12,62,68,84,82,2,45,29,97,4,64,61,29,81,48,82,40,80,76,1,75,66,95,79,2,70,80,87,51,70,78,74,37,9,53,83,24,66,96,17,56,39,19,1,5,53,68,44,15 / 38
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+const reverseWords = str => str.split(" ").reverse().join(" ");
+banana
+
+
+const formatDate = date => new Date(date).toLocaleDateString();
+
+kiwi
+
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+orange / 1
+
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+
+false + orange
+const reverseWords = str => str.split(" ").reverse().join(" ");
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+apple
+
+const findSmallestNumber = numbers => Math.min(...numbers);
+const squareRoot = num => Math.sqrt(num);
+let array = getRandomArray(); array.forEach(item => console.log(item));
+
+true + true
+const multiply = (a, b) => a * b;
+orange - false
+
+const getRandomElement = array => array[getRandomIndex(array)];
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+class MyClass { constructor() { this.property = getRandomString(); } }
+banana
+
+const reverseString = str => str.split("").reverse().join("");
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+false - grape
+const greet = name => `Hello, ${name}!`;
+
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+banana
+
+const formatDate = date => new Date(date).toLocaleDateString();
+const greet = name => `Hello, ${name}!`;
+
+false / kiwi
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+true - 59,53,24,23,4,65,44,87,2,17,66,84,81,30,61,72,49,92,76,96,4,66,55,94,45,84,11,6,95,36,2,0,73,58,66,81,78,66,81,51,43,71,71,12,74,42,51,43,99,80,25,47,41,17,43,14,79,82,69,81,88,42,64,3,27,87,84,10,67,0,72,14,92,24,62,1,82,51,69,42,20,45,54,60,43,88,57,20,41,76,48,91,0,57,78,83,66,52
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+
